@@ -1,4 +1,4 @@
-# Gousto Categories and Product
+# Gousto Categories and Products
 
 This simple React project consumes Gousto API and display a set of categories and corresponding products.
 
@@ -22,11 +22,11 @@ That can be toggle ON and OFF.
 
 Input box is the filter for a given product list.
 It is case insensitive and it will filter currently shown products in selected category.
-If we switch to another category, the same filter will apply.
+If we switch to another category, the same filter will still apply.
 
 ## Styling
 
-Basic styling is done wih bootstrap library.
+Basic styling is done wih Bootstrap library.
 
 ## Components
 
