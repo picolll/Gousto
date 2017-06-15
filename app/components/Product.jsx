@@ -20,7 +20,8 @@ class Product extends React.Component {
         const { name, description } = this.props;
         return (
             <div>
-                {this.state.isToggleOn && <strong>
+                {this.state.isToggleOn &&
+                <strong>
                     <div
                         id={name} onClick={this.handleToggle}>
                         {name}
@@ -35,8 +36,10 @@ class Product extends React.Component {
                 </div>
                 }
 
-                {this.state.isToggleOn ? <div>{description}
-                    <hr></hr>
+                {this.state.isToggleOn ?
+                <div>
+                    {description}
+                    <hr/>
                 </div> : ''}
             </div>
         );

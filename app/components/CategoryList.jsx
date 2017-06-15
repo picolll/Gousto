@@ -1,4 +1,4 @@
-import React       from 'react';
+import React    from 'react';
 import Category from './Category.jsx';
 
 
@@ -6,6 +6,10 @@ class CategoryList extends React.Component {
 
     showCategories() {
         const { selectCategory, categories, selectedCategory } = this.props;
+
+        if (!categories) {
+            return;
+        }
 
         return categories.map(category => {
             const { id, title } = category;
