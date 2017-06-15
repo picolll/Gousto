@@ -12,7 +12,7 @@ class CategoryList extends React.Component {
         }
 
         return categories.map(category => {
-            const { id, title } = category;//console.log(title);
+            const { id, title } = category;
             return (
                 <Category
                     key={id}
