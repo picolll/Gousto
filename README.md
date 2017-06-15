@@ -28,6 +28,13 @@ If we switch to another category, the same filter will still apply.
 
 Basic styling is done wih Bootstrap library.
 
+## Testing
+
+In order to run the tests run this command:
+
+    npm install
+    npm test
+
 ## Components
 
 For a small project I use React and some local state.
