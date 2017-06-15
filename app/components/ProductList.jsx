@@ -1,5 +1,5 @@
 import React       from 'react';
-import Product from './Product.jsx';
+import Product     from './Product.jsx';
 import SearchInput from './SearchInput.jsx';
 
 
