@@ -8,10 +8,7 @@ import { CATEGORIES_ENDPOINT, PRODUCTS_ENDPOINT } from './Endpoints.js';
 
 import $ from 'jquery';
 
-import '../../../react-webpack-template/node_modules/bootstrap/dist/css/bootstrap.css';
-
-
-class Main extends React.Component {
+export default class Main extends React.Component {
 
     constructor() {
         super();
@@ -34,7 +31,6 @@ class Main extends React.Component {
     componentDidMount() {
 
         let categoriesResponse, productsResponse;
-
         $.get(CATEGORIES_ENDPOINT, function (data) {
             categoriesResponse = data.data;
             this.setState({
@@ -47,7 +43,6 @@ class Main extends React.Component {
                 products: productsResponse
             })
         }.bind(this));
-
     }
 
     render() {
